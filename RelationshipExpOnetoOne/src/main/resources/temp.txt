@@ -1,0 +1,54 @@
+1. College Endpoints
+
+
+GET /api/profiles
+
+[
+    {
+        "id": 1,
+        "address": "123 Main St",
+        "phoneNumber": "123-456-7890",
+        "student": {
+            "id": 1,
+            "name": "John Doe"
+        }
+    }
+]
+
+
+POST /api/profiles
+{
+  "address": "123 Main St",
+  "phoneNumber": "123-456-7890"
+}
+
+
+
+2. Student Endpoints
+
+GET /api/students
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "profile": {
+            "id": 1,
+            "address": "123 Main St",
+            "phoneNumber": "123-456-7890"
+        }
+    }
+]
+
+POST /api/students
+
+{
+  "name": "John Doe",
+  "profile": {
+    "address": "123 Main St",
+    "phoneNumber": "123-456-7890"
+  }
+}
+
+
+
+

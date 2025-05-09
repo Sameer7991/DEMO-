@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b0c1d;
+  color: white;
+}
+
+nav {
+  background-color: #14162e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-right button {
+  padding: 0.7rem 1.5rem;
+  background-color: #5c5cfc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero {
+  background: url('https://i.ibb.co/Gv2Mbyr/anime-group.jpg') center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.gallery img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.releases {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #1d1e3a;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.card span {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
